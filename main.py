@@ -1,16 +1,32 @@
 import tkinter as tk
 from tkinter import ttk
 from PIL import Image, ImageTk
+import argparse, sys
+
+parser=argparse.ArgumentParser()
+
+parser.add_argument("--path", help="Crosshair PNG image path")
+parser.add_argument("--size", help="Crosshair size in pixels")
+
+args=parser.parse_args()
+
+# Config
+imgPath = "crosshair.png"
+imgSize = 10
+
+if args.path is not None:
+    imgPath = args.path
+
+if args.size is not None:
+    imgSize = args.size
 
 ##################################################
 # TKinter not supporting transparent background  #
 # So I am using a trick :D (Line 25 and Line 19) #
 ##################################################
 
-imgSize = 10
-
 # load image from a local path
-image = Image.open("crosshair.png")
+image = Image.open(imgPath)
 image = image.resize((imgSize,imgSize))
 
 # define a window
