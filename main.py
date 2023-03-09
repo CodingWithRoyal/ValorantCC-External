@@ -18,7 +18,7 @@ if args.path is not None:
     imgPath = args.path
 
 if args.size is not None:
-    imgSize = args.size
+    imgSize = int(args.size)
 
 ##################################################
 # TKinter not supporting transparent background  #
