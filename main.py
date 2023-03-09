@@ -26,10 +26,17 @@ label = ttk.Label(root, image=imageTk, background='black') # set a bg color here
 # pack label widget into window
 label.pack()
 
+# Set the window size
+window_width = label.winfo_reqwidth()
+window_height = label.winfo_reqheight()
+print("window_width:" + str(window_width))
+print("window_height:" + str(window_height))
+root.geometry("{}x{}+{}+{}".format(window_width, window_height, int(root.winfo_screenwidth()/2 - window_width/2), int(root.winfo_screenheight()/2 - window_height/2)))
+
 # place the label in the center of the screen
-root.geometry("+{}+{}".format(
-    int(root.winfo_screenwidth() / 2 - (imgSize/2)),
-    int(root.winfo_screenheight() / 2 - (imgSize/2))
-))
+# root.geometry("+{}+{}".format(
+#     int(root.winfo_screenwidth() / 2 - (imgSize/2)),
+#     int(root.winfo_screenheight() / 2 - (imgSize/2))
+# ))
 
 root.mainloop()
