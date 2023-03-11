@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\idleXgang\\ValorantCC-Custom-WPF\\ValorantCC-Custom-WPF\\ValorantCC-Custom-WPF.csproj": {}
+    "D:\\idleXgang\\ValorantCC-Custom\\ValorantCC-Custom-WPF.csproj": {}
   },
   "projects": {
-    "D:\\idleXgang\\ValorantCC-Custom-WPF\\ValorantCC-Custom-WPF\\ValorantCC-Custom-WPF.csproj": {
+    "D:\\idleXgang\\ValorantCC-Custom\\ValorantCC-Custom-WPF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\idleXgang\\ValorantCC-Custom-WPF\\ValorantCC-Custom-WPF\\ValorantCC-Custom-WPF.csproj",
+        "projectUniqueName": "D:\\idleXgang\\ValorantCC-Custom\\ValorantCC-Custom-WPF.csproj",
         "projectName": "ValorantCC-Custom-WPF",
-        "projectPath": "D:\\idleXgang\\ValorantCC-Custom-WPF\\ValorantCC-Custom-WPF\\ValorantCC-Custom-WPF.csproj",
+        "projectPath": "D:\\idleXgang\\ValorantCC-Custom\\ValorantCC-Custom-WPF.csproj",
         "packagesPath": "C:\\Users\\Royal\\.nuget\\packages\\",
-        "outputPath": "D:\\idleXgang\\ValorantCC-Custom-WPF\\ValorantCC-Custom-WPF\\obj\\",
+        "outputPath": "D:\\idleXgang\\ValorantCC-Custom\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Royal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             },
-            "Microsoft.WindowsDesktop.App.WPF": {
+            "Microsoft.WindowsDesktop.App": {
               "privateAssets": "none"
             }
           },

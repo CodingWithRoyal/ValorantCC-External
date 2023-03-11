@@ -3,6 +3,12 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="ValorantCC-External"
         Height="Auto"
-        Width="Auto">
+        Width="Auto"
+        WindowState="Maximized"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        Topmost="True"
+        SizeChanged="Window_SizeChanged">
     <Canvas x:Name="canvas" />
 </Window>
