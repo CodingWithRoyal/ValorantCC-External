@@ -1,1 +1,0 @@
-python main.py --path=crosshair-2.png --size=7
