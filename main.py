@@ -32,13 +32,13 @@ image = image.resize((imgSize,imgSize))
 # define a window
 root = tk.Tk()
 root.attributes('-topmost', True) # make the window stay always on top
-root.wm_attributes("-transparentcolor", "black") # mention label bg color to consider as transparentColor
+root.wm_attributes("-transparentcolor", "red") # mention label bg color to consider as transparentColor
 root.overrideredirect(True) # remove title bar, border, and windows box
 
 imageTk = ImageTk.PhotoImage(image)
 
 # add a image to a label and display it on window
-label = ttk.Label(root, image=imageTk, background='black') # set a bg color here
+label = ttk.Label(root, image=imageTk, background='red') # set a bg color here
 # pack label widget into window
 label.pack()
 
