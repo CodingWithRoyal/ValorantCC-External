@@ -7,7 +7,21 @@
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
 	<UseWindowsForms>true</UseWindowsForms>
+	<ApplicationIcon>assets\appicon.ico</ApplicationIcon>
+	<AssemblyName>ValorantCC-External</AssemblyName>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="assets\appicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
 
   <ItemGroup>
     <None Update="assets\appicon.ico">
@@ -15,6 +29,10 @@
     </None>
     <None Update="assets\icon.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
 

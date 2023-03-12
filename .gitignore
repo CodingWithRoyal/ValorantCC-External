@@ -1,0 +1,44 @@
+# Build output
+bin/
+obj/
+
+# NuGet packages
+*.nuget.props
+*.nuget.targets
+packages/
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.pdb
+
+# Resharper files
+_ReSharper*/
+
+# Test Results
+TestResults/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+
+# Misc
+[Tt]humbs.db
+Thumbs.db
+Desktop.ini
+*.log
+*.userprefs
+*.vspscc
+
+# Exclude .gitignore and this file
+!.gitignore
+!README.md
